@@ -1,5 +1,10 @@
-# HotelReservation
+_# HotelReservation
 RESTful services for managing hotel room reservation for a hotel. Users should be able to reserve hotel room, view all available rooms, cancel reservation.
+
+Entities (with attributes):
+•	Room:Room ID, room number, type (single, double, suite), price, availability.
+•	Reservation:Reservation ID, guest name, check-in date, check-out date, room ID, total price.
+Users should be able to reserve hotel room, view all available rooms, cancel reservation.
 
 Entities (with attributes):
 •	Room:Room ID, room number, type (single, double, suite), price, availability.
@@ -21,3 +26,4 @@ Endpoints:
 •	RequestCancel a reservation by providing its unique identifier.
 •	Response: Confirmation of the canceled reservation.
 
+API testing link -  http://localhost:8080/swagger-ui/index.html#/
