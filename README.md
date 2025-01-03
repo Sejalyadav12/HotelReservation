@@ -1,4 +1,4 @@
-_# HotelReservation
+HotelReservation
 RESTful services for managing hotel room reservation for a hotel. Users should be able to reserve hotel room, view all available rooms, cancel reservation.
 
 Entities (with attributes):
